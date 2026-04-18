@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "FileMaster Pro",
+    "slug": "file-master-pro",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "filemaster",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dima.filemaster"
+    },
+    "android": {
+      "package": "com.dima.filemaster",
+      "adaptiveIcon": {
+        "backgroundColor": "#F8F9FA",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#F8F9FA",
+          "dark": {
+            "backgroundColor": "#1C1C1E"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    }
+  }
+}
